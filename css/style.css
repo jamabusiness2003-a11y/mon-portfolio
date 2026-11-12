@@ -138,6 +138,12 @@ body {
     margin-bottom: 25px;
 }
 
+.about-subtitle {
+    color: #c9d1d9;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
 /* Responsive design */
 
 @media screen and (max-width: 768px) {
