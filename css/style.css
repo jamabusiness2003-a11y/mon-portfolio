@@ -53,3 +53,71 @@ body {
 .navbar-toggler:focus {
     box-shadow: none;
 }
+
+/* ==============================
+   HERO HEADER
+================================= */
+
+.bgimage {
+    height: 100vh;
+    background: url('../images/computer_laptop.jpeg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+/* Dark overlay */
+
+.bgimage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.60);
+}
+
+/* Hero text */
+
+.hero-text {
+    position: relative;
+    z-index: 1;
+
+    text-align: center;
+    color: white;
+
+    padding: 20px;
+}
+
+.hero_title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero_desc {
+    font-size: 1.2rem;
+    color: #cccccc;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 768px) {
+    
+    .hero_title {
+        font-size: 2rem;
+    }
+
+    .hero_desc {
+        font-size: 1rem;
+    }
+}
