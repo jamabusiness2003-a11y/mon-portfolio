@@ -286,6 +286,75 @@ body {
     color: white;
 }
 
+
+/* Section Contact */
+
+.contact-section {
+    padding: 100px 0;
+    background-color: #0d1117;
+}
+
+.contact-section h2 {
+    color: #58a6ff;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.contact-section p {
+    color: #c9d1d9;
+}
+
+/* Conteneurs */
+
+.contact-info,
+.contact-form {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    padding: 30px;
+    height: 100%;
+}
+
+.contact-info h3,
+.contact-form h3 {
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.contact-info iframe {
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Formulaire */
+
+.contact-form .form-label {
+    color: #c9d1d9;
+}
+
+.contact-form .form-control {
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    color: white;
+}
+
+.contact-form .form-control:focus {
+    background-color: #0d1117;
+    color: white;
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 0.2rem rgba(88, 166, 255, 0.2);
+}
+
+.contact-form .form-control::placeholder {
+    color: #8b949e;
+}
+
+.contact-form button {
+    margin-top: 10px;
+}
+
+
 /* Responsive design */
 
 @media screen and (max-width: 768px) {
